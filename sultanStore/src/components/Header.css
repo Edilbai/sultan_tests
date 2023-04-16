@@ -1,0 +1,27 @@
+
+.address {
+	height: 34px;
+}
+.header_top_right{
+	max-width: 512px;
+	
+}
+p{
+	margin-left: 50px;
+}
+.icon{
+	margin-right: 16px;
+	margin-left: 40px;
+}
+.header_top{
+	border-bottom: 1px solid rgba(63, 78, 101, 1);;
+	padding: 12px;
+}
+
+
+@media(max-width:320px){
+
+.address{
+	display: none;
+}
+}

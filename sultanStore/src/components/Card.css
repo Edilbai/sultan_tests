@@ -1,0 +1,41 @@
+.card{	width: 326px;
+		height: 490px;
+	border-radius: 10px;
+	padding: 23px;
+}
+.name{
+	width: 282px;
+}
+.j-center{
+justify-content: center;
+}
+.m-0{
+	margin-left:0;
+	
+}
+.size{
+	
+		color: #3F4E65;
+}
+.btn{
+	margin-top: 10px;
+}
+.price{
+	font-size: 16px;
+}
+span{
+	margin-bottom: 5px;
+}
+.korzina_btn{
+	height: 30px;
+}
+@media(max-width:320px){
+	.card_item{
+		max-width: 280px;
+flex-direction: column;
+	}
+	.card_item img{
+		width: 280px;
+		height: 200px;
+	}
+}
